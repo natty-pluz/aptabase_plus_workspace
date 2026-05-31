@@ -1,8 +1,18 @@
-include: package:flutter_lints/flutter.yaml
+include: package:lints/recommended.yaml
 
-# Additional information about this file can be found at
-# https://dart.dev/guides/language/analysis-options
+analyzer:
+  exclude:
+    - '**/.dart_tool/**'
+    - '**/build/**'
+    - '**/.flutter-plugins/**'
+    - '**/.flutter-plugins-dependencies/**'
+
+formatter:
+  page_width: 100
 
 linter:
   rules:
-    - prefer_double_quotes
+    directives_ordering: true
+    prefer_single_quotes: true
+    sort_pub_dependencies: true
+    unawaited_futures: true
