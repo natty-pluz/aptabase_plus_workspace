@@ -1,5 +1,5 @@
 /// Flutter SDK wrapper for Aptabase Plus.
-library;
+library aptabase_flutter_plus;
 
 export 'package:aptabase_plus/aptabase_plus.dart' hide Aptabase;
 

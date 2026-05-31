@@ -1,5 +1,5 @@
 /// Pure Dart SDK for Aptabase.
-library;
+library aptabase_plus;
 
 export 'src/client/aptabase_client.dart';
 export 'src/client/aptabase_facade.dart';
